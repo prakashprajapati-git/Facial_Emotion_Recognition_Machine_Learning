@@ -20,6 +20,24 @@ Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+```
 
+## How to Run
 
+1. Clone the repository.
+2. Make sure the files facial_emotion_detector.json and facial_emotion_detector.h5 are in the project folder.
+3. Run the script:
 
+```bash
+python real_time_detection.py
+```
+
+## Files
+
+- facial_emotion_detector.json – Model architecture
+
+- facial_emotion_detector.h5 – Trained weights
+
+- real_time_detection.py – Main script for real-time detection
+
+- requirements.txt – Python dependencies
